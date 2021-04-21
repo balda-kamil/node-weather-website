@@ -1,0 +1,51 @@
+body{
+    background: #eee;
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: grey;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+.mainTitle{
+    color: #111;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+footer{
+    border-top: 1px solid #ccc;
+}
+
+p{
+    margin: 20px 0 4px 0;
+}
+
+form{
+    display: flex;
+}
+
+input{
+    border:1px solid #ccc;
+    padding: 0 6px;
+    height: 40px;
+    line-height: 40px;
+}
+
+button{
+    cursor: pointer;
+    height: 40px;
+    padding: 0 22px;
+    border: 1px solid black;
+    outline: none;
+}
